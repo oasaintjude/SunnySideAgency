@@ -30,9 +30,9 @@
     justify-content: space-between;
     align-items: center;
 }
-/* .menu {
+#menuIcon {
     display: none;
-} */
+}
 #mobileNav {
     display: none;
 }
@@ -338,7 +338,7 @@ li {
 
 
 /* RESPONSIVE DESIGN */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 660px) {
 
     /* NAVIGATIONS & IT'S BACKGROUND IMAGE */
 .bgandnav {
@@ -353,18 +353,20 @@ li {
     padding-right: 25px;
 }
 #mobileNav {
-    display: block;
+    display: none;
     background-color: white;
     position: absolute;
-    width: 100%;
-    top: 8%;
+    width: 90%;
+    top: 10%;
+    margin: 0 5%;
     height: 280px;
+    border-radius: 8px;
 }
 #mobileNav ul {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 30px;
+    padding-top: 35px;
 }
 #mobileNav li {
     list-style: none;
